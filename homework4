@@ -1,0 +1,80 @@
+//fisrt exersice
+/*a=prompt('vvedite chislo');
+
+if (a>0) 
+{
+	a=-1*a;
+	alert(a);
+} else
+	{
+		alert("error")
+	}
+
+
+
+//second exsersice
+a= Number (prompt ('vvedite 1-oe chislo'));
+b= Number (prompt ('vvedite 2-oe chislo'));
+c= Number (prompt ('vvedite 3-oe chislo'));
+d= Number (prompt ('vvedite 4-oe chislo'));
+const array1 = [a, b, c, d];
+const reducer = (accumulator, currentValue) => accumulator + currentValue;
+
+if (a<=0) 
+{
+	a=-1*a;
+} else if (b<=0) 
+	{
+		b=-1*b;
+	}
+
+  else if (c<=0) 
+	{
+		c=-1*c;
+	}	
+
+  else if (d<=0) 
+	{
+		d=-1*d;
+	} else
+		{
+			console.log('error')
+		}
+
+console.log(array1.reduce(reducer));
+
+
+
+//third exsersice
+a=prompt('vvedite nomer stroky');
+b=prompt('vvedite nomer stroky');
+c=prompt('vvedite nomer stroky');
+a1=Number(a);
+b1=Number(b);
+c1=Number(c);
+
+const num= [a,b,c];
+const num1=[a1,b1,c1];
+console.log(num,'=>',num1)
+
+
+
+//fourth exersise
+r= Number(prompt('vvedite chislo'));
+n= Number(prompt('vvedite stepen'));
+
+x=Math.pow(r,n);
+console.log(x);
+
+a=n%2;
+
+if (a===0) 
+{
+	num=Math.sqrt(x);
+	console.log(num);
+	
+} else
+	{
+		console.log('error');
+	}
+*/
